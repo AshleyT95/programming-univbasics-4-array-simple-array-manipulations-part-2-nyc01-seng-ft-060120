@@ -14,17 +14,16 @@ def using_uniq(array1)
     new_array
 end
 
-def using_flatten(private_colleges_in_newyork)
-  private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
-  flat_array = private_colleges_in_newyork.flatten
+def using_flatten(array1)
+  flat_array = array1.flatten
+  flat_array
 end
 
 def using_delete(my_list, my_element)
   my_list.delete(my_element)
 end
 
-def using_delete_at(famous_robots, integer)
-  famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
-  integer = 2
-  deleted_robot = famous_robots.delete_at(integer)
+def using_delete_at(array1, integer)
+  new_array = array1.delete_at(integer)
+  new_array
 end
