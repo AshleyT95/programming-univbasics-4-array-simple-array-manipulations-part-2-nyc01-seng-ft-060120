@@ -1,10 +1,10 @@
 #Using concat
-def using_concat(my_favorite_things, more_favs)
-  @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
-  more_favs = ["mario kart", "flatiron school"]
-  @all_my_favs = @more_favs.concat(my_favorite_things)
-  puts all_my_favs
+def using_concat(array1, array2)
+  array1 = [" ", " "]
+  array2 = [" ", " "]
+  total_elements = array1.concat(array2)
 end
+
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
   @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
   @another_esoteric_language = "Malbolge"
