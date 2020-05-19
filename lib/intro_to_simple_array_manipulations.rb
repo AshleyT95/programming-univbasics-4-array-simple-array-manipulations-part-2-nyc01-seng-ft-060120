@@ -1,8 +1,7 @@
 #Using concat
 def using_concat(array1, array2)
-  array1 = []
-  array2 = []
-  total_elements = array1.concat(array2)
+    total_elements = array1.concat(array2)
+  puts total_elements
 end
 
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
