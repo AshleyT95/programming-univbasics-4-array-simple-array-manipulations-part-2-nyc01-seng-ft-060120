@@ -3,6 +3,7 @@ def using_concat(my_favorite_things, more_favs)
   @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
   more_favs = ["mario kart", "flatiron school"]
   @all_my_favs = @more_favs.concat(my_favorite_things)
+  all_my_favs
 end
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
   @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
